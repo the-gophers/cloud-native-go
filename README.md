@@ -122,7 +122,7 @@ Build and deploy the [go-hello](go-hello) sample application using:
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) (including the public [ghcr.io/asw101/hello](https://github.com/users/asw101/packages/container/package/hello) sample image).
 - [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli) (See also: [Azure Container Apps > Concepts > Container registries](https://docs.microsoft.com/en-ca/azure/container-apps/containers#container-registries))
 
-## 2.2 Option 2: Dapr (Distributed Application Runtime) or Background Processing Tutorials
+## 2.2. Option 2: Dapr (Distributed Application Runtime) or Background Processing Tutorials
 - [Tutorial: Deploy a Dapr application to Azure Container Apps using the Azure CLI](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr?tabs=bash)
 - [Tutorial: Deploy a Dapr application to Azure Container Apps using an ARM template](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr-azure-resource-manager?tabs=bash)
 - [Tutorial: Deploy a background processing application with Azure Container Apps Preview]()
