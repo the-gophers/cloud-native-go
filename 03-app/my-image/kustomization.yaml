@@ -1,0 +1,7 @@
+bases:
+- ../base
+
+images:
+- name: ghcr.io/asw101/hello
+  newName: acrjxasx2.azurecr.io/asw101/test
+  newTag: 'latest'

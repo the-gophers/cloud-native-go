@@ -1,0 +1,12 @@
+resources:
+- deployment.yaml
+- service.yaml
+- ingress.yaml
+- serviceaccount.yaml
+# httpscaledobject.yaml
+# pod-test.yaml
+
+commonLabels:
+  app.kubernetes.io/name: hello
+
+namespace: keda-http

@@ -1,0 +1,8 @@
+bases:
+- ../base
+
+resources:
+- namespace.yaml
+
+commonLabels:
+  app.kubernetes.io/name: hello

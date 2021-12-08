@@ -1,0 +1,30 @@
+name: 00-azure
+
+on:
+  push:
+    branches:
+    - 01-aks
+    paths:
+    - 01-aks/**
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'debug'
+        default: 'true'
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Deploy
+      env:
+        AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+        GITHUB_SHA: ${{ github.sha }}
+      run: |
+        cd $GITHUB_WORKSPACE/01-aks/
+        bash deploy-group.sh

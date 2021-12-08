@@ -1,0 +1,13 @@
+kind: HTTPScaledObject
+apiVersion: http.keda.sh/v1alpha1
+metadata:
+    name: hello
+spec:
+    host: 
+    scaleTargetRef:
+        deployment: hello
+        service: hello
+        port: 80
+    replicas:
+        min: 0
+        max: 10

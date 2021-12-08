@@ -1,0 +1,19 @@
+bases:
+- ../base
+
+resources:
+- httpscaledobject.yaml
+
+commonLabels:
+  app.kubernetes.io/name: hello
+
+namespace: keda-http
+
+patches:
+  - patch: |-
+      apiVersion: http.keda.sh/v1alpha1
+      kind: HTTPScaledObject
+      metadata:
+        name: hello
+      spec:
+        host: 52.151.224.146
