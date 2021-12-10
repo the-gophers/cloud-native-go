@@ -130,3 +130,5 @@ Build and deploy the [go-hello](go-hello) sample application using:
 ## 3. Get Go-ing with GitHub Actions
 
 - See GopherCon 2021 sessions ([8 December @ 11:30am & 2:30pm EST](https://www.gophercon.com/agenda?speakers=1103097)) with David Justice ([@davidjustice](https://twitter.com/davidjustice)) and Aaron Wislang ([@as_w](https://twitter.com/as_w)).
+
+See the [the-gopher/go-actions](https://github.com/the-gophers/go-action) repo for full instructions to complete the lab asynchronously!
