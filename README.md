@@ -98,7 +98,7 @@ In this lab you will deploy an Azure Kubernetes Service (AKS) cluster and other 
     # login to github container registry
     bash do/ghcr-login.sh
 
-    # push to github container registry
+    # push to github container registry, replace 'asw101' with your GH user
     export OWNER='asw101'
     export IMAGE='test'
     export TAG='latest'
@@ -106,7 +106,7 @@ In this lab you will deploy an Azure Kubernetes Service (AKS) cluster and other 
     bash do/ghcr-push.sh
 
     # build with azure container registry
-    bash do/acr-build
+    bash do/acr-build.sh
     ```
 
 ## 2. Serverless Go with Azure Container Apps (ACA)
