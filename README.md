@@ -125,7 +125,7 @@ Build and deploy the [go-hello](go-hello) sample application using:
 ## 2.2. Option 2: Dapr (Distributed Application Runtime) or Background Processing Tutorials
 - [Tutorial: Deploy a Dapr application to Azure Container Apps using the Azure CLI](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr?tabs=bash)
 - [Tutorial: Deploy a Dapr application to Azure Container Apps using an ARM template](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr-azure-resource-manager?tabs=bash)
-- [Tutorial: Deploy a background processing application with Azure Container Apps Preview]()
+- [Tutorial: Deploy a background processing application with Azure Container Apps Preview](https://docs.microsoft.com/en-ca/azure/container-apps/background-processing?tabs=bash)
 
 ## 3. Get Go-ing with GitHub Actions
 
