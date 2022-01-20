@@ -4,7 +4,7 @@
 
 ## 2. Serverless Go with Azure Container Apps (ACA)
 
-## 2.2. Option 1 - Quickstart & go-hello sample app
+### 2.2. Option 1 - Azure Container Apps Quickstart with go-hello sample app
 
 First, deploy an Azure Container App using:
 
@@ -15,7 +15,7 @@ Then, build and deploy the [go-hello](go-hello) sample application using:
 - [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) (including the public [ghcr.io/asw101/hello](https://github.com/users/asw101/packages/container/package/hello) sample image).
 - [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli) and [Quickstart: Deploy your first container app (custom image)](https://docs.microsoft.com/en-ca/azure/container-apps/get-started-existing-container-image?tabs=bash&pivots=container-apps-private-registry#create-a-container-app)
 
-## 2.2. Option 2 - Dapr (Distributed Application Runtime) or Background Processing Tutorials
+### 2.2. Option 2 - Azure Container Apps with Dapr (Distributed Application Runtime) or Background Processing Tutorials
 
 If you would like to build on the above, or are looking for something more advanced you can try one of our tutorials for Azure Container Apps:
 
