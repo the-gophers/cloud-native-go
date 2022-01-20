@@ -109,26 +109,4 @@ In this lab you will deploy an Azure Kubernetes Service (AKS) cluster and other 
     bash do/acr-build.sh
     ```
 
-## 2. Serverless Go with Azure Container Apps (ACA)
-
-## 2.2. Option 1: Quickstart + go-hello
-
-Deploy your first Azure Container App using:
-
-- [Quickstart: Deploy your first container app](https://docs.microsoft.com/en-ca/azure/container-apps/get-started?tabs=bash)
-
-Build and deploy the [go-hello](go-hello) sample application using:
-
-- [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) (including the public [ghcr.io/asw101/hello](https://github.com/users/asw101/packages/container/package/hello) sample image).
-- [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli) (See also: [Azure Container Apps > Concepts > Container registries](https://docs.microsoft.com/en-ca/azure/container-apps/containers#container-registries))
-
-## 2.2. Option 2: Dapr (Distributed Application Runtime) or Background Processing Tutorials
-- [Tutorial: Deploy a Dapr application to Azure Container Apps using the Azure CLI](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr?tabs=bash)
-- [Tutorial: Deploy a Dapr application to Azure Container Apps using an ARM template](https://docs.microsoft.com/en-ca/azure/container-apps/microservices-dapr-azure-resource-manager?tabs=bash)
-- [Tutorial: Deploy a background processing application with Azure Container Apps Preview](https://docs.microsoft.com/en-ca/azure/container-apps/background-processing?tabs=bash)
-
-## 3. Get Go-ing with GitHub Actions
-
-- See GopherCon 2021 sessions ([8 December @ 11:30am & 2:30pm EST](https://www.gophercon.com/agenda?speakers=1103097)) with David Justice ([@davidjustice](https://twitter.com/davidjustice)) and Aaron Wislang ([@as_w](https://twitter.com/as_w)).
-
-See the [the-gophers/go-action](https://github.com/the-gophers/go-action) repo for full instructions to complete the lab asynchronously!
+## [More (2. Serverless Go, 3. GitHub Actions)](MORE.md)
