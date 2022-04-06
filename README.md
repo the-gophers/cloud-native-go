@@ -2,6 +2,8 @@
 
 ## 1. Cloud Native Go with Azure Kubernetes Service (AKS), KEDA + KEDA HTTP Addon
 
+[Walkthrough (vimeo.com)](https://vimeo.com/696758716/736cd9cae6)
+
 In this lab you will deploy an Azure Kubernetes Service (AKS) cluster and other Azure services (Container Registry, Managed Identity, Storage Account, Service Bus, Key Vault), the open source KEDA (Kubernetes Event-driven Autoscaling) project, the KEDA HTTP Addon ([kedacore/http-add-on](https://github.com/kedacore/http-add-on)) with [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) and [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview). You will then deploy a sample Go application, go-hello, to your cluster using [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [kustomization](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/).
 
 ### Requirements
