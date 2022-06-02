@@ -111,4 +111,6 @@ In this lab you will deploy an Azure Kubernetes Service (AKS) cluster and other 
     bash do/acr-build.sh
     ```
 
-## [More (2. Serverless Go, 3. GitHub Actions)](MORE.md)
+## What's next?
+
+Try our [Cloud Native](https://github.com/Azure-Samples/azure-opensource-labs/tree/main/cloud-native) labs in Azure Open Source Labs ([aka.ms/oss-labs](https://aka.ms/oss-labs)) for Serverless Containers, KEDA, Dapr and more.
